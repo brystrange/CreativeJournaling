@@ -54,10 +54,11 @@ img {
 }
 
 .book-description {
-  color: #666;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.3em;
+  color: #555;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5em;
   letter-spacing: .02em;
 }
 
