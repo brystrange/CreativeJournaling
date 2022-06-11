@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+
+
+/* Content */
+
+.content {
+  width: 100%;
+  margin: 70px 0px 150px 0px;
+}
+
+.inner-content {
+  width: 70%;
+  margin: auto;
+}
+
+.content-title,
+.content-description,
+.content-author-date {
+  width: 60%;
+  margin: auto;
+}
+
+.content-title {
+  font-size: 40px;
+}
+
+.content-description {
+  font-size: 18px;
+  padding: 20px 0px 20px 0px;
+}
+
+.content-author-date {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  padding: 0px 0px 50px 0px;
+  letter-spacing: 2px;
+}
+
+.content-image {
+  width: 80%;
+  margin: auto;
+}
+
+.content-header-credit,
+.content-image-credit {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  margin: 5px 0px 0px 0px;
+}
+
+.content-paragraph {
+  width: 70%;
+  margin: auto;
+}
+
+.first-paragraph,
+.paragraph {
+  font-size: 19px;
+  line-height: 1.8em;
+  margin: 50px 0px 50px 0px;
+}
+
+.first-paragraph::first-letter {
+  font-size: 65px;
+  margin-bottom: -10px;
+  margin-right: 5px;
+  float: left;
+  padding: 15px 0px 0px 0px;
+}
+
+
+
+@media screen and (max-width:1200px) {
+  .inner-content {
+    width: 100%;
+  }
+  .content-header-credit {
+    margin: 5px 0px 0px 10px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .content-title,
+  .content-description,
+  .content-author-date,
+  .content-paragraph {
+    width: 90%;
+  }
+  .content-title {
+    font-size: 35px;
+  }
+  .content-description {
+    font-size: 14px;
+  }
+  .content-author-date {
+    font-size: 9px;
+  }
+  .content-image {
+    width: 90%;
+  }
+  .content-header-credit,
+  .content-image-credit {
+    font-size: 11px;
+  }
+  .first-paragraph,
+  .paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .content {
+    margin: 40px 0px 80px 0px;
+  }
+  .content-title {
+    font-size: 30px;
+  }
+  .content-description {
+    font-size: 14px;
+  }
+  .content-header-credit,
+  .content-image-credit {
+    font-size: 10px;
+  }
+  .first-paragraph,
+  .paragraph {
+    font-size: 15px;
+}

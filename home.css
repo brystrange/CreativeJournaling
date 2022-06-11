@@ -1,0 +1,746 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+
+
+/* Container 1 */
+
+.container1 {
+  width: 100%;
+  margin: 0px 0px 50px 0px;
+}
+
+.inner-container1 {
+  width: 70%;
+  margin: auto;
+}
+
+.headline {
+  color: #020814;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 4px double #666;
+  padding: 30px 0px 10px 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+.header-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 0px 0px 0px;
+}
+
+.left-container1,
+.right-container1 {
+  width: 50%;
+}
+
+.right-container1 {
+  padding: 0px 30px 0px 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.right-container1 a {
+  color: #020814;
+}
+
+.right-container1 a:hover .header-title {
+  text-decoration: underline;
+}
+
+.header-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px 0px 20px 0px;
+}
+
+.header-paragraph {
+  color: #555;
+  margin: 0px 0px 20px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: .02em;
+}
+
+.author-date-container1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.header-author-line {
+  padding: 0px 5px 0px 5px;
+}
+
+
+
+/* Container 2 */
+
+.container2 {
+  width: 100%;
+  margin: 50px 0px 50px 0px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 0px 10px 3px #ddd;
+}
+
+.inner-container2 {
+  width: 70%;
+  margin: auto;
+  padding: 40px 0px 50px 0px;
+}
+
+.book-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book-card {
+  width: 22%;
+}
+
+.book-title {
+  color: #020814;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 0px 10px 0px;
+}
+
+.book-card a:hover .book-title {
+  text-decoration: underline;
+}
+
+.book-description {
+  color: #555;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: .02em;
+}
+
+
+
+/* Container 3 */
+
+.container3 {
+  width: 100%;
+  padding: 0px 0px 50px 0px;
+  margin: 0px 0px 30px 0px;
+}
+
+.inner-container3 {
+  width: 70%;
+  margin: auto;
+}
+
+.essay-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.essay-container3 a {
+  color: #020814;
+}
+
+.essay-container3 a:hover .essay-title-long,
+.essay-container3 a:hover .essay-title-short {
+  text-decoration: underline;
+}
+
+.essay-card-long {
+  width: 50%;
+  text-align: center;
+}
+
+.essay-title-long {
+  font-family: 'Lora', serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
+  width: 70%;
+  margin: auto;
+}
+
+.essay-description-long {
+  color: #222;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: auto;
+  line-height: 1.3em;
+  letter-spacing: .02em;
+}
+
+.essay-card-short {
+  width: 21%;
+}
+
+.essay-image-short {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.essay-image-short img {
+  min-height: 100%;
+}
+
+.essay-title-short {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 0px 10px 0px;
+}
+
+.essay-description-short {
+  color: #555;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: .02em;
+}
+
+
+
+/* Container 4 */
+
+.container4 {
+  background-color: #fff;
+  margin: 0px 0px 50px 0px;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0px 0px 10px 3px #ddd;
+}
+
+.inner-container4 {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-container4,
+.right-container4 {
+  margin: 70px 0px 70px 0px;
+}
+
+.left-container4 {
+  background-color: none;
+  text-align: center;
+  padding: 90px 0px 0px 0px;
+  width: 50%;
+  border-right: 1px solid #bbb;
+}
+
+.right-container4 {
+  text-align: center;
+  background-color: none;
+  width: 50%;
+  padding: 60px 0px 80px 0px;
+}
+
+.right-container4 a {
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding: 12px 16px;
+  border: 3px solid #ddd;
+}
+
+.right-container4 a:hover {
+  color: #111;
+  border: 3px #777 solid;
+}
+
+.writings-title {
+  color: #020814;
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.writings-description {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 0px 0px 50px 0px;
+}
+
+
+
+/* Container 5 */
+
+.container5 {
+  width: 100%;
+  margin: 0px 0px 100px 0px;
+}
+
+.inner-container5 {
+  width: 70%;
+  margin: auto;
+}
+
+.photography-container5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photography-card {
+  width: 22%;
+}
+
+.photography-card a {
+  color: #020814;
+}
+
+.photography-card a:hover .photography-title {
+  text-decoration: underline;
+}
+
+.photography-title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 0px 10px 0px;
+}
+
+.photography-date {
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  word-spacing: 1px;
+  text-align: right;
+  padding: 3px 0px 0px 0px;
+}
+
+.photography-description {
+  color: #555;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: .02em;
+}
+
+
+
+@media screen and (max-width:1200px) { /* Larger tablet screens */
+  .inner-container1,
+  .inner-container2,
+  .inner-container3,
+  .inner-container5 {
+    width: 90%;
+  }
+  .inner-container4 {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:1000px) { /* For tablets: max-width:1000px default */
+  .inner-container1,
+  .inner-container2,
+  .inner-container3,
+  .inner-container5 {
+    width: 90%;
+  }
+  .inner-container4 {
+    width: 100%;
+  }
+
+  /* Container 1 */
+  .container1 {
+    padding: 0px 0px 50px 0px;
+  }
+  .headline {
+    font-size: 18px;
+  }
+  .left-container1,
+  .right-container1 {
+    width: 100%;
+  }
+  .right-container1 {
+    margin: 50px 0px 0px 0px;
+  }
+  .header-title {
+    font-size: 30px;
+    margin: 20px 0px 30px 0px;
+  }
+  .header-paragraph {
+    font-size: 14px;
+  }
+  .author-date-container1 {
+    font-size: 9px;
+  }
+
+  /* Container 2 */
+  .inner-container2 {
+    padding: 40px 0px 10px 0px;
+  }
+  .book-card {
+    width: 50%;
+    padding: 0px 10px 50px 0px;
+  }
+  .book-image {
+    width: 40%;
+    float: left;
+    margin: 0px 10px 0px 0px;
+  }
+  .book-title {
+    font-size: 15px;
+    padding: 5px 0px 10px 0px;
+  }
+  .book-description {
+    font-size: 13px;
+  }
+
+  /* Container 3 */
+  .essay-card-long {
+    width: 100%;
+    margin: 0px 0px 70px 0px;
+  }
+  .essay-card-short {
+    width: 45%;
+  }
+  .essay-description-long,
+  .essay-description-short {
+    font-size: 13px;
+  }
+
+  /* Container 4 */
+  .left-container4 {
+    padding: 100px 0px 0px 0px;
+  }
+  .right-container4 {
+    padding: 70px 0px 70px 0px;
+  }
+  .right-container4 a {
+    font-size: 12px;
+  }
+  .writings-title {
+    font-size: 50px;
+  }
+  .writings-description {
+    font-size: 15px;
+  }
+
+  /* Container 5 */
+  .container5 {
+    margin: 0px 0px 10px 0px;
+  }
+  .photography-card {
+    width: 45%;
+    padding: 0px 0px 70px 0px;
+  }
+  .photography-description {
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (max-width:900px) {
+  /* Container 4 */
+  .container4 {
+    background-color: #f3f3f3;
+  }
+  .inner-container4 {
+    width: 70%;
+    padding: 40px 0px 40px 0px;
+  }
+  .left-container4,
+  .right-container4 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+  }
+  .left-container4 {
+    padding: 50px 0px 10px 0px;
+    border-right: 0px;
+  }
+  .right-container4 {
+    padding: 10px 0px 70px 0px;
+  }
+  .right-container4 a {
+    color: #020814;
+    border: 2px solid #020814;
+  }
+  .right-container4 a:hover {
+    color: #777;
+    border: 2px solid #888;
+  }
+  .writings-title {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width:600px) { /* For mobiles:  max-width:600px default */
+  .inner-container1,
+  .inner-container2,
+  .inner-container3,
+  .inner-container5 {
+    width: 90%;
+  }
+  .inner-container4 {
+    width: 80%;
+  }
+  /* Container 1 */
+  .headline {
+    font-size: 17px;
+  }
+  .right-container1 {
+    margin: 30px 0px -40px 0px;
+  }
+  .header-title {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+  .header-paragraph {
+    font-size: 13px;
+  }
+  .author-date-container1 {
+    font-size: 8px;
+  }
+
+  /* Container 2 */
+  .book-card {
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+  }
+  .book-image {
+    width: 30%;
+  }
+  .book-title {
+    font-size: 15px;
+    padding: 5px 0px 10px 0px;
+  }
+  .book-description {
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  /* Container 3 */
+  .essay-title-long {
+    font-size: 20px;
+    width: 85%;
+  }
+  .essay-title-short {
+    font-size: 15px;
+  }
+  .essay-description-long,
+  .essay-description-short {
+    font-size: 12px;
+  }
+
+  /* Container 4 */
+  .container4 {
+    width: 100%;
+  }
+  .inner-container4 {
+    padding: 30px 0px 30px 0px;
+  }
+  .left-container4 {
+    padding: 30px 0px 20px 0px;
+    text-align: left;
+  }
+  .right-container4 {
+    padding: 0px 0px 45px 0px;
+    text-align: left;
+  }
+  .writings-title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .writings-description {
+    font-size: 13px;
+    padding: 0px 0px 40px 0px;
+  }
+
+  /* Container 5 */
+  .inner-container5 {
+    width: 90%;
+  }
+  .photography-title {
+    font-size: 15px;
+  }
+  .photography-date {
+    font-size: 8px;
+  }
+  .photography-description {
+    font-size: 12px;
+  }
+}
+
+
+
+
+/* Stylesheets for all sections */
+
+.section-container2,
+.section-container3,
+.section-container5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 30px 0px;
+}
+
+.section-container2 a,
+.section-container3 a,
+.section-container5 a {
+  color: #020814;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.section-container2 a:hover,
+.section-container3 a:hover,
+.section-container5 a:hover {
+  text-decoration: underline;
+}
+
+.section-tag {
+  display: flex;
+  flex-wrap: wrap;
+  border-right: 2px solid #020814;
+  padding: 0px 10px 0px 0px;
+}
+
+.section-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-button {
+  margin: 5px 0px 0px 0px;
+}
+
+
+@media screen and (max-width:600px) {
+  .section-name {
+    font-size: 17px;
+  }
+  .section-container2 a,
+  .section-container3 a,
+  .section-container5 a {
+    color: #020814;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+  }
+  .section-button {
+    margin: 2px 0px 0px 0px;
+  }
+}
+
+
+
+
+/* Exclusive format for photo essay images */
+
+@media screen and (max-width:1300px) {
+  .essay-image-short {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .essay-image-short {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width:1150px) {
+  .essay-image-short {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .essay-image-short {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .essay-image-short {
+    height: 360px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .essay-image-short {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .essay-image-short {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .essay-image-short {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .essay-image-short {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .essay-image-short {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .essay-image-short {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .essay-image-short {
+    height: 210px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .essay-image-short {
+    height: 175px;
+  }
+}

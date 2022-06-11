@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+
+
+/* Terms header*/
+
+.terms-header-wrapper {
+  width: 100%;
+  margin: 50px 0px 40px 0px;
+}
+
+.inner-terms-header-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.terms-header-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+/* Terms container */
+
+.terms-container {
+  width: 100%;
+  margin: 0px 0px 100px 0px;
+}
+
+.inner-terms-container {
+  font-family: 'Roboto', sans-serif;
+  width: 70%;
+  margin: auto;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+  .inner-terms-header-wrapper,
+  .inner-terms-container {
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+  .terms-header-wrapper {
+    margin: 40px 0px 30px 0px;
+  }
+  .terms-header-title {
+    font-size: 25px;
+  }
+  .inner-terms-container {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .terms-header-title {
+    font-size: 20px;
+  }
+}

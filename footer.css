@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+footer {
+  color: #eee;
+  background-color: #020814;
+}
+
+footer a {
+  color: #eee;
+}
+
+#outer-footer {
+  width: 70%;
+  margin: auto!important;
+}
+
+#inner-footer {
+  padding: 100px 0px 60px 0px;   /* top, right, bottom, left */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.right-container {
+  width: 40%;
+}
+
+.blog-logo {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 2%;
+}
+
+.blog-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.about-me {
+  margin-bottom: 5%;
+  line-height: 1.4em;
+  letter-spacing: .02em;
+}
+
+.navigation-footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13.5px;
+  text-align: center;
+  padding: 0px 0px 30px 0px;   /* top, right, bottom, left */
+}
+
+.copyright-container {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 0px 0px 30px 0px;   /* top, right, bottom, left */
+}
+
+.copyright {
+  cursor: text;
+}
+
+.navigation-footer a:hover,
+.terms-button:hover,
+.privacy-button:hover {
+  text-decoration: underline;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5 {
+  margin-right: 2.5%;
+}
+
+.copyright,
+.terms-button {
+  margin-right: 2%;
+}
+
+
+@media screen and (max-width:1200px) {
+  #outer-footer {
+    width: 90%;
+  }
+  #inner-footer {
+    padding: 50px 0px 60px 0px;   /* top, right, bottom, left */
+  }
+  .left-container {
+    width: 90%;
+    background-color: none;
+    padding: 0px 0px 50px 0px;   /* top, right, bottom, left */
+    margin: auto!important;
+  }
+  .right-container {
+    margin: auto!important;
+  }
+  .blog-logo {
+    margin-bottom: 1%;
+  }
+  .right-container {
+    width: 90%;
+    background-color: none;
+
+  }
+  .signature img {
+    float: left!important;
+    width: 30%!important;
+  }
+}
+
+
+/* For tablets: max-width:1000px default */
+
+@media screen and (max-width:1000px) {
+  #outer-footer {
+    width: 90%;
+  }
+  .left-container {
+    padding: 0px 0px 30px 0px;   /* top, right, bottom, left */
+  }
+  .blog-logo {
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+  .blog-description {
+    font-size: 12px;
+  }
+  .about-me {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .navigation-footer a {
+    font-size: 10px;
+  }
+  .copyright-container a {
+    font-size: 9px;
+  }
+}
+
+
+/* For mobiles: stack each column on top of each other: max-width:600px default */
+
+@media screen and (max-width:600px) {
+  #outer-footer {
+    width: 90%;
+  }
+  #inner-footer {
+    padding: 50px 0px 40px 0px;   /* top, right, bottom, left */
+  }
+  .about-me {
+    font-size: 12px;
+  }
+  .signature img {
+    width: 40%!important;
+  }
+}

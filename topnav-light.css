@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+.outer-topnav {
+  background-color: #fff;
+  padding: 10px 0px 10px 0px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 10px 1px #ccc;
+}
+
+.inner-topnav {
+  color: #020814;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inner-topnav a {
+  color: #020814;
+}
+
+.topnav-logo-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topnav-logo-container a {
+  font-weight: bold;
+}
+
+.topnav-logo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.topnav-line {
+  font-weight: 500;
+}
+
+.topnav-page-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.topnav-logo,
+.topnav-line,
+.topnav-page-name {
+  padding-right: 7px;
+  margin: auto;
+}
+
+.dropdown-container {
+  position: sticky;
+  top: 0;
+}
+
+.dropdown-container a:hover {
+  background-color: #f5f5f5;
+}
+
+.dropbtn {
+  background-color: #fff;
+  color: #222;
+  font-size: 15px;
+  padding: 7px 10px;
+  border: 2px #777 solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  color: #aaa;
+  border: 2px #aaa solid;
+}
+
+.dropbtn-logo {
+  color: #333;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+  padding: 12px 16px;
+  line-height: 5px;
+  cursor: default;
+  user-select: none;
+}
+
+.dropbtn-desc {
+  font-size: 11px;
+  margin-bottom: 20px;
+  padding: 0px 16px;
+  cursor: default;
+  user-select: none;
+}
+
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+.dropdown-content {
+  color: #333;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  border: 1px #ccc solid;
+  border-radius: 4px;
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0 1px 5px #bbb;
+  z-index: 1;
+  line-height: 5px;
+  padding: 5px 0px 7px 0px;
+  margin: 5px 0px 0px 0px;
+}
+
+.dropdown-content a {
+  color: #555;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+
+@media screen and (max-width:1200px) {
+  .inner-topnav {
+    width: 90%;
+  }
+}
+
+
+/* For tablets: max-width:1000px default */
+
+@media screen and (max-width:1000px) {
+  .inner-topnav {
+    width: 90%;
+  }
+}
+
+
+
+/* For mobiles: stack each column on top of each other: max-width:600px default */
+
+@media screen and (max-width:600px) {
+  .inner-topnav {
+    width: 90%;
+  }
+  .topnav-page-name {
+    display: none;
+  }
+}

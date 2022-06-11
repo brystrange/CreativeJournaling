@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+
+
+/* Header */
+
+.header-description-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-buttons-container a {
+  color: #020814;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.header-buttons-container a:hover,
+.header-buttons-container a.active {
+  box-shadow: 2px 4px 8px 0px #bbb;
+  border: 2px solid #fff;
+}
+
+
+
+/* Writings container */
+
+.writing-container {
+  width: 100%;
+}
+
+.inner-writing-container {
+  width: 70%;
+  margin: auto;
+}
+
+.tabcontent1,
+.tabcontent2 {
+  display: none;
+  margin: auto;
+}
+
+
+/* Poem container */
+
+.poem-container {
+  margin: 50px 0px 100px 0px;
+}
+
+.poem-author-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poem-author-container a:hover {
+  text-decoration: underline;
+}
+
+.poem-author {
+  color: #020814;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px 10px 0px 0px;
+}
+
+.poem-date {
+  color: #777;
+  background-color: #eee;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 0px 2px 0px 2px;
+
+}
+
+.poem-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 0px 10px 0px;
+}
+
+
+
+/* Story container */
+
+.inner-tabcontent2 {
+  margin: 0px 0px 100px 0px;
+}
+
+.story-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+
+.story-container a {
+  color: #020814;
+}
+
+.story-container a:hover .story-title {
+  text-decoration: underline;
+}
+
+.story-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.story-author {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 0px 15px 0px;
+}
+
+.story-description {
+  color: #555;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+  .inner-writing-container {
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+  .header-buttons-container {
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+  }
+  .tabcontent1,
+  .tabcontent2 {
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .poem-author {
+    font-size: 12px;
+  }
+  .poem-date {
+    font-size: 10px;
+  }
+  .poem-title {
+    font-size: 18px;
+  }
+  .poem {
+    font-size: 14px;
+  }
+  .story-container {
+    width: 100%;
+  }
+  .story-title {
+    font-size: 18px;
+  }
+  .story-author {
+    font-size: 12px;
+  }
+  .story-description {
+    font-size: 14px;
+  }
+}
+
+
+
+
+/* Exclusive section for poem id's */
+
+#poem-4,
+#poem-3,
+#poem-2,
+#poem-1 {}
+
+#poem-4 {}
+#poem-3 { margin-left: 10%; }
+#poem-2 { margin-left: 20%; width: 50%; }
+#poem-1 {}
+
+
+
+/* Media */
+
+@media screen and (max-width:1200px) {
+  #poem-4 {}
+  #poem-3 {}
+  #poem-2 { width: 60%; }
+  #poem-1 {}
+}
+
+@media screen and (max-width:1000px) {
+  #poem-4 {}
+  #poem-3 { margin-left: 5%; }
+  #poem-2 { margin-left: 10%; width: 70%; }
+  #poem-1 {}
+}
+
+@media screen and (max-width:600px) {
+  #poem-4 {}
+  #poem-3 {}
+  #poem-2 { width: 80%; }
+  #poem-1 {}
+}
